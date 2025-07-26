@@ -63,7 +63,9 @@ NeoLegacy Chat Alt only accesses **explicitly approved** data.
 It cannot impersonate or simulate individuals **without user or guardian consent.**  
 Conversation logs are stored **securely**, and deletion is always an option.
 
-See [`PRIVACY.md`](../PRIVACY.md) and [`TERMS.md`](../TERMS.md) for full policies.
+See [PRIVACY.md](./PRIVACY.md) and [TERMS.md](./TERMS.md) for full policy details.
+
+
 
 ---
 neo-legacy-chat-alt/
