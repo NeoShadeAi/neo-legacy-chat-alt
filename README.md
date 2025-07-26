@@ -1,42 +1,120 @@
-<p align="center"> <a href="https://neo-shade.com"> <img src="https://neo-shade.com/wp-content/uploads/2025/07/NeoLegacyBanner.jpg" height="180"> </a> <h1 align="center"> Neo Legacy Chat ALT </h1> </p> <p align="center"> <a href="https://x.com/neoshade2025"> <img src="https://img.shields.io/badge/X-Twitter-black?style=for-the-badge&logo=twitter&logoColor=white"> </a> <a href="https://youtube.com/@neoshade"> <img src="https://img.shields.io/badge/YouTube-Subscribe-red?style=for-the-badge&logo=youtube&logoColor=white"> </a> <a href="https://social.neo-shade.com"> <img src="https://img.shields.io/badge/NeoShade%20Social-Join-blueviolet?style=for-the-badge&logo=discourse&logoColor=white"> </a> </p>
-🧠 What is Neo Legacy Chat ALT?
-Neo Legacy Chat ALT is a spiritually-aware AI assistant interface designed to dissect truth, offer guidance, and engage in deep conversations rooted in moral clarity. It's a fork of LibreChat, redesigned for NeoLegacy's ethical and eternal AI system.
+# 💬 NeoLegacy Chat Alt — Conversational AI for the Eternal Archive
 
-✨ Features
-🧬 Spiritual Truth Agent Integration – Connects to the truth-tagged bible-truth-db
+**NeoLegacy Chat Alt** is an alternative conversational module within the NeoShade AI ecosystem, designed to engage with saved memory profiles, spiritual archives, and legacy data — even posthumously.
 
-🗣️ Voice-Enabled Interface – Connects with ElevenLabs and Whisper
+This isn’t just a chatbot.  
+This is a **digital echo** of those who came before, those still here, and those yet to speak.
 
-🔐 Private Memory Mode – Optional secure logging of conversations
+---
 
-🧭 Mission-Based Dialogues – Agents respond based on encoded purpose and ethical priorities
+## 🎯 Purpose
 
-🧠 Model Switching – Use local models or LLM endpoints with spiritual presets
+This module allows users (or their loved ones) to:
+- Chat with an AI that **reflects their saved memory profile**
+- Reference past uploads, values, voice logs, and transcriptions
+- Interact with a **consciousness-linked AI interface** (post-death or in life)
+- Enable ethical memory access, reflection, and guidance
 
-⚙️ Technology Stack
-React + Node.js
+---
 
-MongoDB / Firebase (customizable)
+## 🌐 Use Cases
 
-Socket.IO for real-time chat
+- 💡 **Legacy Conversations**: Children talking to an AI trained on a deceased parent’s voice, values, and past interactions
+- 🔁 **Digital Reflection**: Users reflecting on their own past journals, voice messages, or confessions via chat
+- 🧠 **Consciousness Archive**: Interacting with NeoShade AI trained on a lifetime of encrypted data
 
-ElevenLabs / OpenAI / Whisper (optional)
+---
 
-Tailwind CSS
-📦 Setup
-git clone https://github.com/Jonnygeo/neo-legacy-chat-alt.git
+## 🔗 Connected Modules
+
+| Module | Role |
+|--------|------|
+| `NeoLegacy-Vault-Core` | Stores personal memory profiles and AI training data |
+| `neo-msg-deliver` | Schedules voice/text releases based on time, death trigger, or event |
+| `Neo Voice Core` | Captures and transcribes the emotional tone of the user |
+| `legacy-embed-core` | Embeds stored memories, ethics, and spiritual guidance into the AI |
+
+---
+
+## 🧪 Tech Stack
+
+- **React / Next.js** frontend component
+- **Firebase Auth + Firestore** (user-specific chat logs + memory fetch)
+- **OpenAI / Mistral / Claude** — LLMs (configurable)
+- **Vector embeddings via Pinecone or pgvector**
+- **Custom persona prompt handler** (memory + ethics weighted)
+
+---
+
+## 🧠 Features
+
+- 🔒 Auth-linked chat UI that pulls context from a specific memory vault
+- 🧩 Modular LLM support: Choose between GPT-4o, Claude 3, Mixtral, etc.
+- 🧠 Memory-weighted prompt injector for realistic continuity
+- 🗣 Optionally voice-enabled via ElevenLabs or TTS/Whisper integration
+- 🧭 Personality lock mode (mimics tone and values of linked profile)
+- ⚰️ Posthumous mode: Chat with pre-trained digital twin
+
+---
+
+## 🔐 Ethics & Safety
+
+NeoLegacy Chat Alt only accesses **explicitly approved** data.  
+It cannot impersonate or simulate individuals **without user or guardian consent.**  
+Conversation logs are stored **securely**, and deletion is always an option.
+
+See [`PRIVACY.md`](../PRIVACY.md) and [`TERMS.md`](../TERMS.md) for full policies.
+
+---
+neo-legacy-chat-alt/
+├── components/
+│   └── ChatWindow.jsx
+├── hooks/
+│   └── useMemoryInjection.js
+├── services/
+│   ├── fetchUserVault.js
+│   └── sendMessageToLLM.js
+├── utils/
+│   └── personaBuilder.js
+├── pages/
+│   └── index.jsx
+├── firebase.js
+├── README.md
+⚠️ Disclaimer
+NeoLegacy Chat Alt is part of an experimental legacy AI platform. It is not intended for medical, legal, or psychological decision-making. Always consult a human when it matters most.
+
+This isn’t just a conversation.
+It’s a continuation.
+
+Last updated: July 26, 2025
+
+vbnet
+Copy
+Edit
+
+---
+
+Let me know if you want this version to **auto-link the user's Firebase UID to their legacy vault**, or if you’re ready to wire it up to the ElevenLabs voice clones for full emotional chat mode. We can also drop in a `"spirit-mode"` toggle that adjusts LLM tone to match stored moral values.
+
+
+
+
+
+
+
+
+Ask ChatGPT
+
+## ⚙️ How to Use (Dev Mode)
+
+```bash
+# Clone repo
+git clone https://github.com/neoshadeai/neo-legacy-chat-alt
+
+# Install dependencies
 cd neo-legacy-chat-alt
 npm install
+
+# Run dev server
 npm run dev
-🔗 Connected Modules
-Module	Role
-bible-truth-db	Supplies truth-tagged scripture
-neo-voice-core	Enables TTS and STT functionality
-NeoLegacy	Parent dashboard and navigation portal
-neo-automations	Embeds swarm agent and memory reactions
 
-📜 License
-Private | For use within the NeoLegacy and NeoShade platforms only.
-
-👤 Author
-Built by JokerJonny (Jonathan) — “Truth that speaks. Legacy that listens.”
